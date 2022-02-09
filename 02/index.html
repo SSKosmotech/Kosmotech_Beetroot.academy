@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,
+        span {
+            border: 1px solid red;
+            width: 300px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+        </ul>
+    </nav>
+    <form method="get" action="https://www.google.com.ua/search" target="_blank">
+        <input type="text" name="q" value="" placeholder="Enter search quary">
+        <!--<input type="submit" value="Search">-->
+        <button type="submit">Search</button>
+        <button type="button">Simple button</button>
+        <button type="reset">Clear</button>
+        <!---->
+    </form>
+    <br><br><br><br><br>
+
+
+
+
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Frontend Skills</legend>
+            <label><input type="checkbox" name="skill[]" value="HTML5">HTML5</label>
+            <br>
+            <input type="checkbox" name="skill[]" value="CSS3" id="skill_css"> 
+            <label for="skill_css">CSS3</label>
+            <br>
+            <input type="checkbox" name="skill[]" value="JavaScript"> JavaScript
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label>
+                <input type="radio" checked name="gender" value="men">men
+            </label>
+            <br>
+            <input type="radio" name="gender" value="woman" id="woman"> 
+            <label for="woman">woman</label>
+            <br>
+            <input type="radio" name="gender" value="others"> others
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selects drink</legend>
+            <select name="drink[]" multiple size="10">
+                <!--<option value="">Select drink</option>-->
+                <optgroup label="Non Alcohol">
+                    <option value="12">Tea</option>
+                    <option>Coffe</option>
+                    <option selected>Cola</option>
+                </optgroup>
+                <optgroup label="Alcohol">
+                    <option>Ale</option>
+                    <option disabled>Beer</option>
+                </optgroup>
+                <option value="12">Tea</option>
+                <option>Coffe</option>
+                <option selected>Cola</option>
+                <option>Ale</option>
+                <option>Beer</option>
+                <option value="0">Новий</option>
+                <option value="1">В обробці</option>
+            </select>
+        </fieldset>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+    <h3 id="frame_here">UP</h3>
+
+
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis, quis ratione ut perferendis odio. Ipsa
+        optio vel, veritatis iste hic quas soluta iure, vitae praesentium dolor sit, minima consequatur!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis, quis ratione ut perferendis odio. Ipsa
+        optio vel, veritatis iste hic quas soluta iure, vitae praesentium dolor sit, minima consequatur!
+    </div>
+    <div>
+        <p>
+            <a href="#">
+                <b>Lorem
+                    <i>ipsum dolor</i>
+                </b>
+                    <i>sit amet
+                    </i> consectetur adipisicing elit. Ab blanditiis, quis ratione ut perferendis odio. Ipsa optio vel,
+                    veritatis iste hic quas soluta iure, vitae praesentium dolor sit, minima consequatur!
+            </a>
+                   
+        </p>
+    </div>
+    <span>Hello students</span>
+    <span>Hello students</span>
+    <span>Hello students</span>
+    <span>Hello students</span>
+
+    <i></i>
+    <em></em>
+
+    <b></b>
+    <strong></strong>
+<br><br><br><br><br>
+<iframe src="index.html" width="600" height="400"></iframe>
+<iframe src="https://beetroot.academy/ru/courses/online/front-end/" width="600" height="400"></iframe>
+<iframe src="https://www.youtube.com/watch?v=ZfP42qir76I" width="600" height="400"></iframe>
+<iframe src="https://lms.beetroot.academy/myCourses/lesson/ckz2hbfd44n0b0724sv6ek6ns" width="600" height="400"></iframe>
+<iframe src="../01/index.html" width="600" height="400"></iframe>
+<!--
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/erJ_E5i1B9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+-->
+
+<a href="#" download></a>
+<br><br><br><br>
+<a href="#" >To top</a>
+
+<a href="#frame_here" >To UP</a>
+</body>
+
+</html>
